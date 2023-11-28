@@ -1,7 +1,7 @@
 #function
 def read_logins():
     with open('login.txt', 'r') as f:
-        contents = f.readlines()
+        new_contents = f.readlines()
 
         # print(contents)
         new_contents = []
