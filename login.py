@@ -28,7 +28,7 @@ def login():
     logged_in = False
 
 for line in logins:\
-    if line[0] == ask_password and logged_in == False:
+    # if line[0] == ask_password and logged_in == False:
         if line[1] == ask_password:
             logged_in = True
 
