@@ -11,6 +11,9 @@ def read_logins():
             fields [1] = fields[1].rstrip()
             new_contents.append(fields)
 
+            # return new_contents
+            print(new_contents)
+
 #function 
 def login():
     ask_username = str(input('Username'))
