@@ -12,7 +12,9 @@ def read_logins():
             new_contents.append(fields)
 
             # return new_contents
-            print(new_contents)
+            return new_contents
+        
+logins = read_logins()
 
 #function 
 def login():
