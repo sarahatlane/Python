@@ -4,7 +4,8 @@ from certifi import contents
 
 def read_logins():
     with open('login.txt', 'r') as f:
-        new_contents = f.readlines()
+        # new_contents = f.readlines()
+        contents = f.readlines()
 
         # print(contents)
         new_contents = []
