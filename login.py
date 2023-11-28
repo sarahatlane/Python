@@ -22,8 +22,8 @@ logins = read_logins()
 
 #function 
 def login():
-    ask_username = str(input('Username'))
-    ask_password = str(input('Password'))
+    ask_username = str(input('Username: '))
+    ask_password = str(input('Password: '))
 
     logged_in = False
 
