@@ -3,7 +3,13 @@ def read_logins():
     with open('login.txt', 'r') as f:
         contents = f.readlines()
 
-        print(contents)
+        # print(contents)
+        new_contents = []
+        
+        for line in contents:
+            fields = line.split(',')
+            fields [1] = fields[1].rstrip()
+            new_contents.append(fields)
 
 #function 
 def login():
