@@ -43,19 +43,19 @@ for line in logins:\
 def main():
     print('Welcome')
 
-def ask_password():
-    # Your password input logic goes here
-    password = input("Enter password: ")
-    return password
+# def ask_password():
+#     # Your password input logic goes here
+#     password = input("Enter password: ")
+#     return password
 
-# Rest of your code
-# ...
+# # Rest of your code
+# # ...
 
-# Usage of ask_password function
-if line[0] == ask_password() and logged_in == False:
-    # Your conditional logic based on the password check
-    
-login()
+# # Usage of ask_password function
+# if line[0] == ask_password() and logged_in == False:
+#     # Your conditional logic based on the password check
+
+# login()
 
 
 
