@@ -34,9 +34,13 @@ for line in logins:
 
             if logged_in == True:
                 print('Logged in sucessfuly')
+                main()
             else:
                 print('Username / Password is incorrect')
+                login()
 
+def main():
+    print('Welcome')
 
 login()
 
