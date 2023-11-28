@@ -27,7 +27,7 @@ def login():
 
     logged_in = False
 
-for line in logins:
+for line in logins:\
     if line[0] == ask_password and logged_in == False:
         if line[1] == ask_password:
             logged_in = True
@@ -43,6 +43,18 @@ for line in logins:
 def main():
     print('Welcome')
 
+def ask_password():
+    # Your password input logic goes here
+    password = input("Enter password: ")
+    return password
+
+# Rest of your code
+# ...
+
+# Usage of ask_password function
+if line[0] == ask_password() and logged_in == False:
+    # Your conditional logic based on the password check
+    
 login()
 
 
