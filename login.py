@@ -1,3 +1,10 @@
+#function
+def read_logins():
+    with open('login.txt', 'r') as f:
+        contents = f.readlines()
+
+        print(contents)
+
 #function 
 def login():
     ask_username = str(input('Username'))
