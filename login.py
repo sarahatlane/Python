@@ -1,4 +1,7 @@
 #function
+from certifi import contents
+
+
 def read_logins():
     with open('login.txt', 'r') as f:
         new_contents = f.readlines()
@@ -20,6 +23,14 @@ logins = read_logins()
 def login():
     ask_username = str(input('Username'))
     ask_password = str(input('Password'))
+
+    logged_in = False
+
+for line in logins:
+    if line[0] == ask_password and logged_in == False:
+        if line[1] == ask_password:
+            logged_in = True
+
 
 login()
 
